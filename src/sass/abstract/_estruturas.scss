@@ -1,0 +1,18 @@
+.grid-dupla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-grid{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;          
+    text-align: center;
+}
+.right-grid{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-column: 2;          
+    text-align: center;
+}

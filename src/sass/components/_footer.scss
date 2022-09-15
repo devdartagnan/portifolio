@@ -1,0 +1,24 @@
+@use '../abstract/' as *;
+
+.footer{
+    background: url(../assets/Footer.png) 100% no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    color: $font-color;
+    font-family: $font-Inria;
+    height: 535px;
+    padding-top: 6rem;
+    width: 100vw;
+    text-align: left;
+    .footer-content{
+        gap: 1.5rem;
+        .footer-titulo{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .footer-link{
+            font-size: 16px;
+            font-weight: 200;
+        }
+    }
+}   

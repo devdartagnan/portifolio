@@ -1,0 +1,44 @@
+@use "../abstract/" as *;
+
+
+.projetos{
+    color: $font-color;
+    font-family: $font-Inria;
+    margin: 7rem 0;
+    width: 100vw;
+    .projetos-titulo{
+        font-size: 58px;
+        margin: 4rem 0;
+        text-align: center;
+    }
+    .apps-titulo{
+        font-size: 32px;
+    }
+    .apps-info{
+        background-color: darkslategray;
+        height: 250px;
+        margin: 2rem 0;
+        width: 400px;
+    }
+    .apps-link{
+        color: $font-color;
+        font-weight:300;
+        text-decoration: none;
+    }
+
+    .portifolio-titulo{
+        font-size: 32px;
+    }
+    .portifolio-info{
+        background-color: darkslategray;
+        height: 250px;
+        margin: 2rem 0;
+        width: 400px;
+    }
+    .portifolio-link{
+        color: $font-color;
+        font-weight:300;
+        text-decoration: none;
+    }
+    
+}

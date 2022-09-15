@@ -1,0 +1,64 @@
+@use "../abstract/" as *;
+
+body{
+    background-image: url(../assets/noise.png);
+    background-color: $background-color;
+    background-repeat: repeat;
+}
+.header-bg{
+    align-items: center;
+    background-image: url(../assets/headerBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 765px;
+    width: 100vw;
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        font-family: $font-Inria-sans;
+        font-weight: 300;
+        gap:4rem;
+        margin: 4rem;
+        a{
+            color: $font-color;
+            text-decoration: none;
+        }
+    }
+}
+.herosection{
+    align-items: center;
+    background: url(../assets/browser.png) center no-repeat ; 
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 1032px;
+    .titulo-hero{
+        background-image: url(../assets/Bem-vindo.svg) ;
+        background-repeat: no-repeat;
+        background-size:  100%;
+        height: 100px;
+        margin-top: 8rem;
+        width: 240px;
+    }
+    .star{
+        background-image: url(../assets/star22.png);
+        background-size:  100%;
+        height: 25px;
+        margin-top: 2rem;
+        width: 25px;
+    }
+    p{
+        color: $font-color;
+        font-family: $font-Laila;
+        font-size: 20px;
+        height: 300px;
+        margin-top: 3rem;
+        text-align: center;
+        width: 300px;
+    }
+}

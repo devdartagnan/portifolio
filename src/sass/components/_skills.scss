@@ -1,0 +1,29 @@
+@use '../abstract/' as *;
+
+.skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem;
+    font-family: $font-Inria;
+    color: $font-color;
+    text-align: center;
+    .skills-titulo{
+        font-size: 52px;
+    }
+    .skills-nav{
+        display: flex;
+        gap: 4rem;
+        font-size: 24px;
+        a{
+            color: $font-color;
+            text-decoration: none;
+        }
+    }
+    .skills-info{
+        font-family: $font-Inria-sans;
+        width: 600px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
